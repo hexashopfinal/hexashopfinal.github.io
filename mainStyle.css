@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family: 'Merriweather', serif; font-size: 18px; margin: 0; color: #878787}
+
+h1,h2,h3{margin-bottom: 0; color: #000}
+
+h1{font-family: 'Pushster', cursive; font-size: 3rem}
+
+section{padding: 25px 0; border-bottom: 1px solid #ddd}
+
+nav{padding: 10px 0}
+
+.item-holder{position: relative}
+
+.item-detail{position: absolute; top: 35%; left: 5%; color: #fff; font-size: 20px}
+
+.item-detail h1{color: #fff; font-size: 10vh}
+
+.btn-detail{
+	border: 1px solid #fff; padding: 10px 15px; color: #fff
+}
+
+.btn-detail:hover{
+	background-color: #ddd; color: #333
+}
+.item-detail-1{
+	position: absolute; width: 100%; text-align: center;
+	top: 25%; color: #fff; left: 0
+}
+
+.item-detail-1 h2, .item-detail-hover h2{color: #fff; font-size: 30px}
+
+.item-detail-hover{
+	background-color: #000;
+	position: absolute; left: 10%; top: 10%;
+	width: 80%; height: 80%; text-align: center; color: #fff; padding: 10%; opacity: 0; transition: all 1s;
+	transform: scale(0); border-radius: 50%
+}
+
+.item-holder:hover > .item-detail-hover{opacity: 1; transform: scale(1); border-radius: 0}
+
+.i-shopping{
+	position: absolute;top: 65%; left: 0; width: 100%; display: flex; justify-content: center; opacity: 0; transition: all 0.5s
+}
+
+.item-holder:hover >.i-shopping{
+	opacity: 1; top: 50%
+}
+
+.outline{
+	background:#ddd; margin: 20px; padding: 10px
+}
+
+.product-name{
+	display: flex; justify-content: space-between; align-content: center; margin: 20px 0
+}
+
+.product-name h3{margin-top: 0; font-size:  24px}
+
+.product-name i{color: #F2D300; margin: 2px}
+
+.menu{margin-top: 10px}
+
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+
+.menu ul li{position: relative}
+
+.menu ul li a{padding: 10px 35px; display: block; transition: all 0.3s; font-size: 20px}
+
+.menu ul li a:hover{color: #FF6F97; font-weight: 700}
+
+.menu ul ul{
+	position: absolute;flex-direction: column;
+	z-index: 999; background: rgba(255,255,255,0.8); box-shadow: 0 3px 5px #333; transition: all 0.3s;
+	top: 200%; opacity: 0; visibility: hidden
+}
+
+.menu ul ul li{border-bottom: 1px dotted #aaa}
+
+.menu ul ul li a:hover {padding-left: 40px}
+
+.menu ul li:hover > ul{
+	opacity: 1; top: 100%; visibility: visible
+}
+
+.underline-hover{border-bottom: #FF6F97 2px solid; transform: scaleX(0); transition: all 0.3s}
+
+.menu ul li:hover >.underline-hover{transform: scaleX(1)}
+
+main{
+	min-height: 500px
+}
+
+footer{min-height: 500px; padding: 50px 0; color: #fff; background-color: #333}
+
+.page-title{background: url("../images/about-us-page-heading.jpg") no-repeat center top; min-height: 500px; color: #fff; display: flex; justify-content: center; align-items: center}
+
+.page-title h1, .product-title h1, .t-white{color: #fff}
+
+.product-title{background: url("../images/products-page-heading.jpg") no-repeat center top; min-height: 500px; color: #fff; display: flex; justify-content: center; align-items: center}
+
+.border-bottom{border-bottom: 1px solid #fff}
+
+
+
+
+

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Hexa Shop</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/grid.css" type="text/css">
+<link rel="stylesheet" href="../css/all.css" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/mainStyle.css" type="text/css">
+<link href="../images/close.png" rel="shortcut icon" type="image/x-icon">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<nav class="shadow">
+		<div class="container d-flex justify-between">
+			<a href="#">
+				<img src="../images/logo.png" alt="Logo">
+			</a>
+			<div class="menu">
+				<ul>
+					<li>
+					  <a href="../index.html">Home</a>
+					  <div class="underline-hover"></div>
+				  </li>
+					<li>
+					  <a href="#">Shop</a>
+						<div class="underline-hover"></div>
+					  <ul>
+							<li><a href="../product.html">Men</a></li>
+							<li><a href="../product.html">Women</a></li>
+							<li><a href="../product.html">Kid</a></li>
+							<li><a href="../product.html">Accessories</a></li>
+						</ul>
+					</li>
+					<li>
+					  <a href="../about.html">About</a>
+					  <div class="underline-hover"></div>
+				  </li>
+					<li>
+					  <a href="../index.html">Blog</a>
+					  <div class="underline-hover"></div>
+				  </li>
+					<li>
+					  <a href="../index.html">Contact</a>
+					  <div class="underline-hover"></div>
+				  </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- TemplateBeginEditable name="main" -->
+	<main></main>
+	<!-- TemplateEndEditable -->
+<footer>
+	<div class="container">
+			<div class="row border-bottom">
+				<div class="col-3">
+					<img src="../images/white-logo.png" alt="image" class="img-100">
+					<p>16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</p>
+					<p>hexashop@company.com</p>
+					<p>010-020-0340</p>
+				</div>
+				<div class="col-3">
+					<h3 class="t-white">Shopping & Categories</h3>
+					<p>Men’s Shopping</p>
+					<p>Women’s Shopping</p>
+					<p>Kid's Shopping</p>
+				</div>
+				<div class="col-3">
+					<h3 class="t-white">Useful links</h3>
+					<p>Homepage</p>
+					<p>About us</p>
+					<p>Help</p>
+					<p>Contact us</p>
+				</div>
+				<div class="col-3">
+					<h3 class="t-white">Help & information</h3>
+					<p>Help</p>
+					<p>FAQ's</p>
+					<p>Shipping</p>
+					<p>Tracking ID</p>
+				</div>
+			</div>
+			<p class="t-center">Copyright © 2022 HexaShop Co., Ltd. All Rights Reserved. </p>
+		</div>
+	</footer>
+	
+</body>
+</html>
